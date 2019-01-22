@@ -3,6 +3,17 @@
 #include <math.h>
 #include "init.h"
 
+//**************************************************************************************************************//
+//
+//  Description : Fonction qui crée 2 vecteurs
+//
+//  Entrées : 1 tableau de structure
+//
+//  Sorties : /
+//
+//  Notes : /
+//
+//***************************************************************************************************************//
 void crea_vecteur(Vecteur *vecteur){
     int nI;
     for(nI=0;nI<NB_VECTEUR;nI++){

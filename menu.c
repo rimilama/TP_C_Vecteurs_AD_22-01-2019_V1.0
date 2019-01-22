@@ -2,6 +2,17 @@
 #include <stdlib.h>
 #include "menu.h"
 
+//**************************************************************************************************************//
+//
+//  Description : Fonction qui affiche un menu
+//
+//  Entrées : 1 tableau de structure
+//
+//  Sorties : /
+//
+//  Notes : /
+//
+//***************************************************************************************************************//
 void menu(Vecteur *vecteur){
     int nEnd=1;
     fflush(stdin);
@@ -15,7 +26,17 @@ void menu(Vecteur *vecteur){
     }while(nEnd == 1);
 }
 
-
+//**************************************************************************************************************//
+//
+//  Description : Fonction qui lance le calcul choisie
+//
+//  Entrées : 1 tableau de structure
+//
+//  Sorties : /
+//
+//  Notes : /
+//
+//***************************************************************************************************************//
 int choix(Vecteur *vecteur){
     int nChoix = 1;
     char cChoix;

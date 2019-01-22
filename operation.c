@@ -2,6 +2,17 @@
 #include <stdlib.h>
 #include "operation.h"
 
+//**************************************************************************************************************//
+//
+//  Description : Fonction qui effectue l'addition des 2 vecteurs et l'affiche
+//
+//  Entrées : 1 tableau de structure
+//
+//  Sorties : /
+//
+//  Notes : /
+//
+//***************************************************************************************************************//
 void addition(Vecteur *vecteur){
     Vecteur vecteur_temp;
     vecteur_temp.nVectoriel.nX = vecteur[0].nVectoriel.nX + vecteur[1].nVectoriel.nX;
@@ -11,6 +22,18 @@ void addition(Vecteur *vecteur){
     getchar();
 }
 
+
+//**************************************************************************************************************//
+//
+//  Description : Fonction qui effectue la soustraction des 2 vecteurs et l'affiche
+//
+//  Entrées : 1 tableau de structure
+//
+//  Sorties : /
+//
+//  Notes : /
+//
+//***************************************************************************************************************//
 void soustraction(Vecteur *vecteur){
     Vecteur vecteur_temp;
     vecteur_temp.nVectoriel.nX = vecteur[0].nVectoriel.nX - vecteur[1].nVectoriel.nX;
@@ -20,6 +43,18 @@ void soustraction(Vecteur *vecteur){
     getchar();
 }
 
+
+//**************************************************************************************************************//
+//
+//  Description : Fonction qui effectue la multiplication du premier vecteur avec un scalaire et l'affiche
+//
+//  Entrées : 1 tableau de structure
+//
+//  Sorties : /
+//
+//  Notes : /
+//
+//***************************************************************************************************************//
 void multiplication(Vecteur *vecteur){
     int nA;
     printf("Rentrer un scalaire : ");
